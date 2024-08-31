@@ -1,0 +1,94 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 450px;
+  background-color: #202020;
+}
+@media screen and (min-width: 992px) {
+  .form-container {
+    width: 450px;
+    flex-shrink: 0;
+    padding: 64px 48px 64px 48px;
+  }
+}
+.login-logo {
+  width: 90px;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .login-logo {
+    width: 180px;
+  }
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+.input-label {
+  color: white;
+  font-family: roboto;
+  margin-bottom: 0px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.name {
+  font-family: roboto;
+  font-size: 15px;
+  color: white;
+  border: 1px solid #6366f1;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+.pwd {
+  font-size: 14px;
+  color: white;
+  border: 1px solid #6366f1;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+.login-button {
+  color: white;
+  background-color: #4f46e5;
+  font-family: roboto;
+  font-size: 16px;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.error-msg {
+  color: #ff0b37;
+  font-family: roboto;
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  line-height: 16px;
+}

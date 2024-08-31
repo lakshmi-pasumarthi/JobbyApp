@@ -1,0 +1,78 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  background-size: cover;
+  height: 90vh;
+}
+@media screen and (min-width: 768px) {
+  .home-container {
+    align-items: flex-start;
+    padding-left: 120px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  }
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+@media screen and (min-width: 768px) {
+  .content {
+    align-items: flex-start;
+    width: 50%;
+  }
+}
+.heading {
+  font-family: robotot;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 62px;
+    text-align: left;
+    line-height: 1.2;
+  }
+}
+.desc {
+  font-family: roboto;
+  color: white;
+  font-size: 14px;
+  line-height: 35px;
+  margin-bottom: 0;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .desc {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+.btn {
+  color: white;
+  background-color: #4f46e5;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px 24px;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    width: 150px;
+    font-size: 16px;
+  }
+}
